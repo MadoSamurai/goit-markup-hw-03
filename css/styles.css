@@ -33,7 +33,6 @@ a {
   padding: 0 15px;
 }
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-content {
@@ -48,6 +47,8 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0;
+  display: block;
 }
 .logo span {
   color: #4d5ae5;
@@ -66,6 +67,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 .nav-link:hover,
 .address-link:hover,
@@ -88,16 +91,16 @@ a {
   line-height: 1.5;
   color: #434455;
   font-style: normal;
+  padding: 24px 0;
+  display: block;
 }
 .hero {
   background-color: #2e2f42;
-}
-.hero-content {
-  max-width: 496px;
-  margin: 0 auto;
+  padding-top: 188px;
+  padding-bottom: 188px;
   text-align: center;
-  padding: 188px 0;
 }
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -105,6 +108,8 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
+  max-width: 496px;
+  margin: 0 auto;
 }
 .hero-btn {
   border: none;
@@ -123,7 +128,8 @@ a {
 .hero-btn:focus {
   background-color: #404bbf;
 }
-.features-title {
+
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -135,6 +141,7 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .features-list {
   display: flex;
   gap: 24px;
@@ -185,7 +192,7 @@ a {
   display: block;
 }
 .team-card-name {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 .team-card-title {
   margin-bottom: 8px;
@@ -235,11 +242,10 @@ a {
 }
 .footer {
   background-color: #2e2f42;
-  padding: 100px 50px 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-.footer-content {
-  max-width: 264px;
-}
+
 .footer .logo {
   color: #f4f4fd;
 }
@@ -249,4 +255,5 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   margin-top: 16px;
+  max-width: 264px;
 }
