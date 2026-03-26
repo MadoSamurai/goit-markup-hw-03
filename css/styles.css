@@ -86,6 +86,7 @@ a {
 .address-list {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 .address-link {
   font-size: 16px;
