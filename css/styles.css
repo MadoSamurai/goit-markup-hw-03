@@ -46,15 +46,16 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
-  padding: 24px 0;
-  display: block;
 }
-.logo span {
+.logo-accent {
   color: #4d5ae5;
 }
 .nav {
   display: flex;
+  align-items: center;
+}
+.header-logo {
+  margin-right: 76px;
 }
 .nav-list {
   display: flex;
@@ -188,7 +189,7 @@ a {
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   border-radius: 0 0 4px 4px;
 }
-.team-card img {
+.team-img {
   display: block;
 }
 .team-card-name {
@@ -229,7 +230,7 @@ a {
 .portfolio-card {
   width: calc((100% - 24px * 2) / 3);
 }
-.portfolio-card img {
+.portfolio-img {
   display: block;
 }
 .portfolio-card-name {
